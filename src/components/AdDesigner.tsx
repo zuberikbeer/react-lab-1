@@ -4,7 +4,7 @@ import "./AdDesigner.css";
 const AdDesigner = () => {
   const [flavor, setFlavor] = useState("Chocolate"); //string
   const [darkTheme, setdarkTheme] = useState<boolean>(); //boolean
-  const [fontSize, setFontSize] = useState(44); //number
+  const [fontSize, setFontSize] = useState(50); //number
 
   return (
     <section className="AdDesigner">
@@ -15,7 +15,7 @@ const AdDesigner = () => {
         <p style={{ fontSize: `${fontSize}px` }}>{flavor}</p>
       </div>
       <div className="boot">
-        <p className="What-to-support">What to support</p>
+        <h3 className="What-to-support">What to support</h3>
         <div className="flavors">
           <button
             className="Chocolate"
@@ -53,6 +53,7 @@ const AdDesigner = () => {
           >
             Light
           </button>
+
           <button
             className="dark"
             onClick={() => {
@@ -68,16 +69,20 @@ const AdDesigner = () => {
           <button
             className="down"
             onClick={() => {
-              setFontSize(30);
+              setFontSize((prev) => {
+                return prev - 1;
+              });
             }}
           >
             Down
           </button>
-
+          <p>{fontSize}</p>
           <button
             className="up"
             onClick={() => {
-              setFontSize(60);
+              setFontSize((prev) => {
+                return prev + 1;
+              });
             }}
           >
             Up
