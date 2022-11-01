@@ -1,0 +1,9 @@
+.Header {
+  font-family: "Caveat", cursive;
+  color: #0e3c7e;
+  border-bottom: 1px solid black;
+  box-shadow: 0 6px 8px -2px gray;
+}
+h1 {
+  font-size: 3em;
+}

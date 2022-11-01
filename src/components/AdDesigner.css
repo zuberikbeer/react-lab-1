@@ -1,0 +1,85 @@
+section {
+  margin-left: 15px;
+}
+.AdDesigner .dark-theme {
+  background-color: black;
+  color: white;
+  border: 5px solid white;
+}
+.AdDesigner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.Ad-Designer {
+  font-family: "Caveat", cursive;
+}
+
+.add {
+  font-family: "Caveat", cursive;
+  border: 5px solid black;
+  box-shadow: 0 3px 15px 5px black;
+  background: white;
+  color: black;
+  width: 28%;
+}
+
+.vote-for {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+.boot {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.What-to-support {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.Chocolate,
+.Vanilla,
+.Strawberry {
+  color: white;
+  background-color: #0e3c7e;
+  font-size: 20px;
+  border-radius: 5px;
+  text-align: center;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 15px;
+}
+.Color-Theme {
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 75px;
+}
+.light,
+.dark {
+  color: white;
+  background-color: #0e3c7e;
+  font-size: 20px;
+  border-radius: 5px;
+  text-align: center;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 15px;
+}
+
+.Font-Size {
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 100px;
+}
+.down,
+.up {
+  color: white;
+  background-color: #0e3c7e;
+  font-size: 20px;
+  border-radius: 5px;
+  text-align: center;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 15px;
+}
